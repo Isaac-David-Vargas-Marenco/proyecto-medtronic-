@@ -1,4 +1,4 @@
 Swal.fire({
-    title: '<b class="texto">Bienvenido!</b>',
-    confirmButtonText: 'Siguiente',
+    title: '<b class="texto">welcome!</b>',
+    confirmButtonText: 'Next',
 })
