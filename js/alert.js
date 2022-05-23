@@ -26,7 +26,7 @@ submit_button.onclick = function(event){
 
 
 Swal.fire({
-    title: '<strong> your information is</strong>',
+    title: '<strong> Your information is</strong>',
     icon: 'information',
     html:
       ' inserted name value is : '+name_med+ ' inserted telephone value is : '+ number_med+ ' inserted email value is : '+email_med+' inserted date value is : '+date_med+' inserted message is : '+text_med,
