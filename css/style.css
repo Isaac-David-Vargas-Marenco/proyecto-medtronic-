@@ -23,6 +23,18 @@
         box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
         cursor: pointer;
 }
+
+
+img  {
+        transition: transform 0.3s;
+}
+p{
+        transition: transform 0.3s;     
+}
+a{
+        transition: transform 0.3s;     
+}
+
 .container figure img:hover{
         transform: scale(1.1);
 }
