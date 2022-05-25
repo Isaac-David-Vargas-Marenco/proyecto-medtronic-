@@ -29,7 +29,7 @@ Swal.fire({
     title: '<strong> Your information is</strong>',
     icon: 'information',
     html:
-      '<h5> Inserted name value is : '+name_med+  '</h5> <h5> Inserted telephone value is : '+ number_med+ '</h5> <h5> Inserted email value is : '+email_med+'</h5> <h5> Inserted date value is : '+date_med+' <h5> inserted message is : '+text_med +'</h5>',
+      '<hr> Inserted name value is : '+name_med+  '</hr> <hr> Inserted telephone value is : '+ number_med+ '</hr> <hr> Inserted email value is : '+email_med+'</hr> <hr> Inserted date value is : '+date_med+' </hr> <hr> inserted message is : '+text_med +'</hr>',
     showCloseButton: true,
     showCancelButton: false,
     focusConfirm: false,
