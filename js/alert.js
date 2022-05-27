@@ -15,6 +15,15 @@ form_tag.addEventListener("submit", function(event){
 })*/
 
 var submit_button = document.getElementById("submit-button")
+ 
+var information={
+  "name":"", 
+  "number":"",
+  "email":"",
+  "date":"",
+  "text":"" 
+
+}
 
 submit_button.onclick = function(event){
   event.preventDefault();
@@ -23,6 +32,14 @@ submit_button.onclick = function(event){
   var email_med = document.getElementById("email_medtronic").value;
   var date_med = document.getElementById("date_medtronic").value;
   var text_med = document.getElementById("texterea_medtronic").value;
+
+  information.name=name_med;
+  information.number=number_med;
+  information.email=email_med;
+  information.date=date_med;
+  information.text=text_med;
+
+  console.log(information);
 
 
 Swal.fire({
