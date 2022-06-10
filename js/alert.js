@@ -36,17 +36,6 @@ submit_button.onclick = function(event){
 
   console.log(information);
 
-$("#form_medtronic").submit(function(e){
-  e.preventDefault();
-  var name = $("#name_medtronic").val();
-  var number = $("#telephone_medtronic").val();
-  var email = $("#email_medtronic").val();
-  var date = $("#date_medtronic").val();
-  var menssage = $("#texterea_medtronic").val();
-
-  alert("This is the information you entered in the form :  "+ name + number + email + date + menssage)
-})
-
 
 Swal.fire({
     title: '<strong> Your information is</strong>',
@@ -64,3 +53,28 @@ Swal.fire({
     cancelButtonAriaLabel: 'Thumbs down'
   })
 }
+/*
+$("#form_medtronic").submit(function(e){
+  e.preventDefault();
+  var name = $("#name_medtronic").val();
+  var number = $("#telephone_medtronic").val();
+  var email = $("#email_medtronic").val();
+  var date = $("#date_medtronic").val();
+  var message = $("#texterea_medtronic").val();
+
+  Swal.fire({
+    title: '<strong> Your information is</strong>',
+    icon: 'information',
+    html:
+      '<hr> Inserted name value is : '+name+  '</hr> <hr> Inserted telephone value is : '+ number+ '</hr> <hr> Inserted email value is : '+email+'</hr> <hr> Inserted date of birth value is : '+date+' </hr> <hr> inserted message is : '+message +'</hr>',
+    showCloseButton: true,
+    showCancelButton: false,
+    focusConfirm: false,
+    confirmButtonText:
+      '<i class="fa fa-thumbs-up"></i> Great!',
+    confirmButtonAriaLabel: 'Thumbs up, great!',
+    cancelButtonText:
+      '<i class="fa fa-thumbs-down"></i>',
+    cancelButtonAriaLabel: 'Thumbs down'
+  })
+})*/
