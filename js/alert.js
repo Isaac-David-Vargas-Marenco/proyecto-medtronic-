@@ -36,6 +36,17 @@ submit_button.onclick = function(event){
 
   console.log(information);
 
+$("#form_medtronic").submit(function(e){
+  e.preventDefault();
+  var name = $("#name_medtronic").val();
+  var number = $("#telephone_medtronic").val();
+  var email = $("#email_medtronic").val();
+  var date = $("#date_medtronic").val();
+  var menssage = $("#texterea_medtronic").val();
+
+  alert("This is the information you entered in the form :  "+ name + number + email + date + menssage)
+})
+
 
 Swal.fire({
     title: '<strong> Your information is</strong>',
