@@ -24,6 +24,14 @@
         cursor: pointer;
 }
 
+@media only screen and (max-width: 600px) {
+        #timeline_to_hide {
+            display: none;
+        }
+        #flex_title{
+                font-size:medium; 
+        }
+      }
 
 img  {
         transition: transform 0.3s;
